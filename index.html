@@ -272,6 +272,19 @@
   transition: width 1s;
  
 }
+.headerText{
+color:white;
+text-align: center;
+margin-right: 64px;
+font-size: 51px;
+margin-top: -3%;
+  visibility: hidden;;
+    animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  transition: width 10s;
+}
 .top_leaf {
   position: absolute;
     left: 643px;
@@ -324,15 +337,15 @@
   background-color: black;
  }
  @keyframes example {
-  from {visibility: hidden;width:40px;}
-  to {visibility: visible;width:150px;}
+  from {visibility: hidden;width:40px;font-size:10px;}
+  to {visibility: visible;width:150px;font-size:48px;}
 }
     </style>
 
 
 	
 	<div id="heart">
-    <h1 style="color:white;text-align: center;margin-right: 64px;font-size: 51px;margin-top: -3%;"><p style="color:white;text-align: center;">SUNSHINE</p></h1>
+    <h1 class="headerText"><p style="color:white;text-align: center;margin-left: 600px;">SUNSHINE</p></h1>
     <div id ="container">
 <div id="left" > 
       <img class="top_Medium_bottom" src="sunflowerl.png">
